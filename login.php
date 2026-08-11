@@ -125,7 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WETLI | Log In</title>
+<title>Sunfreight | Log In</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
 :root {
@@ -244,7 +244,7 @@ button:hover {
 <body>
   <div class="card">
     <h1>Welcome back</h1>
-    <p class="sub">Log in to your <a class="public" href="index.html">WETLI</a> account</p>
+    <p class="sub">Log in to your <a class="public" href="index.html">Sunfreight</a> account</p>
 
     <?php if ($error): ?><div class="err"><?= e($error) ?></div><?php endif; ?>
 

@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WETLI Admin | Add User</title>
+<title>Sunfreight Admin | Add User</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
 :root {
@@ -224,7 +224,7 @@ a.back {
 <body>
   <div class="card">
     <h1>Add New User</h1>
-    <p class="sub">Create an account for the WETLI admin system.</p>
+    <p class="sub">Create an account for the Sunfreight admin system.</p>
 
     <?php if ($error): ?><div class="err"><?= e($error) ?></div><?php endif; ?>
     <?php if ($success): ?><div class="ok"><?= e($success) ?></div><?php endif; ?>

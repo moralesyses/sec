@@ -236,7 +236,7 @@ while ($row = $result->fetch_assoc()) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WETLI | Gallery Manager</title>
+<title>Sunfreight | Gallery Manager</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
 :root {
@@ -527,7 +527,7 @@ textarea {
       <div class="row">
         <div>
           <label>Event Title *</label>
-          <input type="text" name="title" required value="<?= e($edit['title'] ?? '') ?>" placeholder="e.g. WETLI Christmas Party 2025">
+          <input type="text" name="title" required value="<?= e($edit['title'] ?? '') ?>" placeholder="e.g. Sunfreight Christmas Party 2025">
         </div>
         <div>
           <label>Category *</label>

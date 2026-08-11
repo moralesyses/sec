@@ -108,7 +108,7 @@ if ($role === 'superadmin') {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WETLI | Dashboard</title>
+<title>Sunfreight | Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
 :root {
@@ -364,7 +364,7 @@ a.edit-link:hover,
 <body>
 <header>
   <div>
-    <h1>WETLI Dashboard</h1>
+    <h1>Sunfreight Dashboard</h1>
     <div class="who">Logged in as <?= e($_SESSION['name']) ?> · <?= e($roleLabel) ?></div>
   </div>
   <a class="logout" href="logout.php">Log out</a>
