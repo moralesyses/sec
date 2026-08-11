@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunfreight | Shippping and Logistics - Philippines</title>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;0,700;1,600;1,700&family=Poppins:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://fontawesome.com" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  
+  <div class="logo"><a href="index.html"><img class="logo" src="pics/sunfreight_logo.png" alt="logo"></a></div>
+  <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="careers.php">Careers</a></li>
+      <li><a href="gallery.php">Gallery</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Get a Quote</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1 class="hero-title">Your Trusted<br><em>Logistics Partner</em></h1>
+      <p class="hero-body">88 Sunfreight Express Corporation (88 SEC), since its establishment in 2008 is committed to provide quality service to stakeholders of international trade and supply chain logistics as well as bridging the gap of these entities on efficient compliance on recent customs regulations or a mutual equilibrium to the benefit of the national development
+      </br>
+        Headed and manned by professionals and staff that gained experience academically and in actual scenario, 88 SEC offers complete logistics solutions to all of our clients big or small, near or far, whatever be the nature and purpose of your valuable cargo, we can handle it!
+    </p>
+    <div class="hero-actions">
+      <a href="contact.html" class="btn-primary">Get a Quote</a>
+      <a href="#how" class="btn-outline">See How It Works</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <svg class="route-diagram" viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Route diagram">
+      <!-- route line -->
+      <path d="M 40 200 Q 140 80 220 140 Q 300 200 380 80" stroke="#cfc6d6" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+      <!-- nodes -->
+      <circle cx="40" cy="200" r="10" fill="#F3CD00"/>
+      <circle cx="220" cy="140" r="10" fill="#572472"/>
+      <circle cx="380" cy="80" r="10" fill="#B31613"/>
+      <!-- labels -->
+      <text x="40" y="222" fill="#cfc6d6" font-family="Roboto,sans-serif" font-size="11" text-anchor="middle">Origin</text>
+      <text x="220" y="162" fill="#cfc6d6" font-family="Roboto,sans-serif" font-size="11" text-anchor="middle">Hub</text>
+      <text x="380" y="102" fill="#cfc6d6" font-family="Roboto,sans-serif" font-size="11" text-anchor="middle">Destination</text>
+      <!-- moving truck dot animation -->
+      <circle r="7" fill="#F3CD00" opacity=".9">
+        <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+          <mpath href="#route-path"/>
+        </animateMotion>
+      </circle>
+      <path id="route-path" d="M 40 200 Q 140 80 220 140 Q 300 200 380 80" fill="none"/>
+    </svg>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">Safe</div></div>
+      <div class="stat"><div class="stat-num"><em>Efficient</em></div></div>
+      <div class="stat"><div class="stat-num">Convenient</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack">
+    <span class="ticker-item"><span class="ticker-dot"></span>International Air/Sea Freight</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Domestic Air/Sea Freight</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Customs Brokerage</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Door to Door Services</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Warehousing &amp; Supply Chain</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Trucking Services</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Marine Insurance</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>PEZA Processing</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Consultancy</span>
+    <!-- duplicate -->
+    <span class="ticker-item"><span class="ticker-dot"></span>International Air/Sea Freight</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Domestic Air/Sea Freight</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Customs Brokerage</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Door to Door Services</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Warehousing &amp; Supply Chain</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Trucking Services</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Marine Insurance</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>PEZA Processing</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Consultancy</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-header">
+    <div class="section-eyebrow">
+      Services Offered
+    </div>
+    <h2 class="section-title">End-to-end logistics solutions</h2>
+    <p class="section-sub">From your warehouse floor to your customer's door — every link in the chain, handled.</p>
+    <!--
+      <video class="truck-icon"
+            autoplay
+            muted
+            loop
+            playsinline>
+        <source src="vids/truck.mp4" type="video/mp4">
+      </video>
+    -->   
+  </div>
+  <div class="services-grid services-grid-3">
+    <div class="service-card">
+      <div class="service-name">International Air/Sea Freight Forwarding</div>
+      <p class="service-desc">Reliable global cargo transportation by air or sea with end-to-end shipment coordination.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Domestic Air/Sea Freight Forwarding</div>
+      <p class="service-desc">Fast and efficient cargo delivery across the Philippines through trusted air and sea networks.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Customs Brokerage Services</div>
+      <p class="service-desc">Expert customs clearance solutions to ensure smooth, compliant, and timely cargo release.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Door to Door Services</div>
+      <p class="service-desc">Convenient pickup and delivery solutions from your location directly to the final destination.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Warehousing and Supply Chain Management</div>
+      <p class="service-desc">Secure storage and streamlined inventory solutions to support efficient supply chain operations</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Trucking Services</div>
+      <p class="service-desc">Dependable trucking solutions for the safe and timely movements of cargo nationwide.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Marine Insurance</div>
+      <p class="service-desc">Cargo protection solutions that provide financial security against transit-related risks.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">PEZA Processing</div>
+      <p class="service-desc">Specialized assistance with PEZA documentation, compliance, and logistics requirements.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Consultancy</div>
+      <p class="service-desc">Professional logistics and trade advisory services tailored to improve operational efficiency and compliance.</p>
+    </div>
+  </div>
+</section>
+
+<!--NETWORK AND ACCREDITATIONS-->
+<section class="coverage" id="coverage">
+
+  <div class="coverage-header">
+    <h2 class="section-title"><em>Our Network & Accreditations</em></h2>
+    <p class="section-sub">
+      88 Sunfreight Express Corp is associated with leading logistics networks and accredited by key Philippine government agencies.
+    </p>
+  </div>
+
+  <!-- Government -->
+  <div class="logo-category">
+    <h3>Philippine Government Facilities</h3>
+
+    <div class="logo-grid">
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/boc_logo.png" alt="BOC Logo">
+        </div>
+        <p>Philippine Bureau of Customs</p>
+      </div>
+      
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/dti_logo.png" alt="DTI - FTEB Logo">
+        </div>
+        <p>Department of Trade and Industry - Fair Trade and Enforcement Bureau</p>
+      </div>
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/peza_logo.png" alt="PEZA Logo">
+        </div>
+        <p>Philippine Economic Zone Authority</p>
+      </div>
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/sec_logo.png" alt="SEC Logo">
+        </div>
+        <p>Security and Exchange Commission</p>
+      </div>
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/cab_logo.png" alt="CAB Logo">
+        </div>
+        <p>Civil Aeronautics Board</p>
+      </div>
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/philgeps_logo.png" alt="">
+        </div>
+        <p> Philippine Government Electronic Procurement System</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Networks -->
+  <div class="logo-category">
+    <h3>Networks & Organizations</h3>
+
+    <div class="logo-grid-networks">
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/olo_logo.png" alt="OLO Logo">
+        </div>
+        <p>Orange Logistics Organizations (OLO)</p>
+      </div>
+
+      
+
+      <div class="logo-card">
+        <div class="logo-circle">
+          <img src="pics/ctap_logo.jpg" alt="CTAP Logo">
+        </div>
+        <p>Confederation Of Truckers Association Of The Philippines</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner" id="contact">
+  <div>
+    <h2 class="cta-banner-title">Ready to move faster?<br><span>Get your first quote today.</span></h2>
+    <p class="cta-banner-sub">No setup fees. No long-term contracts. Cancel anytime.</p>
+  </div>
+  <a href="mailto:inquiry" class="btn-primary">Request a Quote →</a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">88 Sunfreight Express Corp</div>
+    </div>
+    <div>
+      <div class="footer-col-title">Company</div>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="#coverage">Network and Accreditations</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links">
+        <li><a href="https://www.facebook.com/88SEC" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/88sunfreightexpresscorp" target="_blank">Instagram</a></li>
+        <li><a href="tel:63228903009">+63 2 8290 3009</a></li>
+        <li><a href="mailto:inquiry@88sunfreight.com">inquiry@88sunfreight.com</a></li>
+        <li><a href="mailto:forwardingTL@88sunfreight.com ">forwardingTL@88sunfreight.com </a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>Unit 6B, Frabelle Alabang Building, Madrigal Business Park, Ayala Alabang, Muntinlupa City, Metro Manila, 1780</span>
+    <span><a href="login.php" class="staff-login" aria-label="Staff login">©</a> 2008 | Sunfreight Express Corp., All Rights Reserved</span>
+  </div>
+</footer>
+
+<script>
+  // Nav scroll effect
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+  // Slideshow autoplay
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  setInterval(() => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }, 4000);
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+@"
+.env
+test.php
+uploads/
+"@ | Out-File -Encoding utf8 .gitignore
