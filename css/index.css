@@ -409,6 +409,12 @@ section {
     box-shadow: 0 12px 32px rgba(87, 36, 114, .1);
 }
 
+.vm-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 860px;
+    margin: 0 auto;
+}
+
 .service-name {
     font-family: var(--font-head);
     font-size: 1.05rem;

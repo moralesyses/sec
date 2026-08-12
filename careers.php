@@ -233,7 +233,7 @@ if ($result) {
         <li><a href="https://www.instagram.com/88sunfreightexpresscorp" target="_blank">Instagram</a></li>
         <li><a href="tel:63228903009">+63 2 8290 3009</a></li>
         <li><a href="mailto:inquiry@88sunfreight.com">inquiry@88sunfreight.com</a></li>
-        <li><a href="mailto:forwardingTL@88sunfreight.com ">forwardingTL@88sunfreight.com </a></li>
+        <li><a href="mailto:forwarding@88sunfreight.com ">forwarding@88sunfreight.com </a></li>
       </ul>
     </div>
   </div>
