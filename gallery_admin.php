@@ -547,7 +547,7 @@ textarea {
       <label>Description of the Event</label>
       <textarea name="description" placeholder="What happened at this event? Shown in the popup."><?= e($edit['description'] ?? '') ?></textarea>
 
-      <label><?= $edit ? 'Add More Photos' : 'Photos' ?> (jpg, png, gif, webp — max 5 MB each, select multiple)</label>
+      <label><?= $edit ? 'Add More Photos' : 'Photos' ?> (jpg, png, gif, webp — max 20 MB each, select multiple)</label>
       <input type="file" name="photos[]" accept="image/*" multiple <?= $edit ? '' : 'required' ?>>
 
       <button class="btn" type="submit"><?= $edit ? 'Save Changes' : 'Create Event' ?></button>
